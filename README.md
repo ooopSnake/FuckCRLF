@@ -1,6 +1,19 @@
 ## Useful tool for remove CRLF
 
 
+## Build
+
+### Step 1 clone
+git clone https://github.com/ooopSnake/FuckCRLF.git
+
+### Step 2 build
+go build
+
+### Step 3 execute
+./FuckCRLF -ext=cpp -path /path/to/your/path
+
+
+
 ## Usage
 
 ```
@@ -11,15 +24,6 @@ Usage of FuckCRLF:
         (optional) path to handle, default is currentdir
 
 ```
-
-### Step 1 clone
-git clone https://github.com/ooopSnake/FuckCRLF.git
-
-### Step 2 build
-go build
-
-### Step 3 execute
-./FuckCRLF -ext=cpp -path /path/to/your/path
 
 
 ## License
