@@ -1,7 +1,7 @@
 ## Useful tool for remove CRLF
 
 
-##Usage
+## Usage
 
 ```
 Usage of FuckCRLF:
@@ -12,13 +12,13 @@ Usage of FuckCRLF:
 
 ```
 
-###Step 1 clone
+### Step 1 clone
 git clone https://github.com/ooopSnake/FuckCRLF.git
 
-###Step 2 build
+### Step 2 build
 go build
 
-###Step 3 execute
+### Step 3 execute
 ./FuckCRLF -ext=cpp -path /path/to/your/path
 
 
