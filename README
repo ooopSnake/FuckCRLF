@@ -22,4 +22,5 @@ go build
 ./FuckCRLF -ext=cpp -path /path/to/your/path
 
 
-
+## License
+WTFPL
