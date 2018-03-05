@@ -39,12 +39,12 @@ func main() {
 		}
 		targetWorkDir = wd
 	} else {
-		fInfo, err := os.Stat(*cmdWorkDir)
+		_, err := os.Stat(*cmdWorkDir)
 		if err != nil {
 			fmt.Println("file stat error ", err.Error())
 			os.Exit(kExitFileStat)
 		} else {
-			targetWorkDir = fInfo.Name()
+			targetWorkDir = *cmdWorkDir
 		}
 	}
 	relParent := fmt.Sprintf(".%c", filepath.Separator)
